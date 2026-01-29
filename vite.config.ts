@@ -27,7 +27,7 @@ export default defineConfig({
       autoThemeTarget: '#root'
     }), 
     tsconfigPaths(),
-    // viteSingleFile()
+    // viteSingleFile() - Disabled for Vercel deployment compatibility
   ],
   server: {
     proxy: {
